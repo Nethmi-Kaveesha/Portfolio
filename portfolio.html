@@ -5,6 +5,9 @@
     <title>Title</title>
     <style>
         body{
+            background: #1D1D1D;
+        }
+        body>div{
             background: #171400;
         }
         div>div>img{
@@ -50,6 +53,46 @@
 
         }
 
+        header{
+            position: relative;
+            height: 100px;
+        }
+
+        header>nav{
+            color: white;
+            position: absolute;
+            right: 30px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: fit-content;
+        }
+        header>nav>ul{
+            list-style: none;
+        }
+
+        header>nav>ul>li{
+            display: inline;
+            margin:0px 10px;
+
+        }
+
+        header>img{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            position: absolute;
+            top: 20px;
+        }
+
+        header>h3{
+            color: white;
+            display: flex;
+            position: absolute;
+            left: 40px;
+            top: 30px;
+        }
+
     </style>
 </head>
 <body>
@@ -71,5 +114,20 @@
     </div>
 </div>
 
+<header>
+    <img src="assets/images/icons8-alphabet-67(1).png" alt="logo" title="logo" width="250" >
+    <h3>aveesha</h3>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About me</li>
+            <li>Skills</li>
+            <li>Education</li>
+            <li>Projects</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
 </body>
 </html>

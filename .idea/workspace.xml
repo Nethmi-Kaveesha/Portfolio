@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d15f87-398b-481e-9130-2f809132e53b" name="Changes" comment="add image hover to start portfolio">
+    <list default="true" id="d2d15f87-398b-481e-9130-2f809132e53b" name="Changes" comment="add label for name">
+      <change afterPath="$PROJECT_DIR$/assets/images/icons8-alphabet-67(1).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
@@ -68,7 +69,11 @@
       <workItem from="1725276935753" duration="1195000" />
       <workItem from="1725278150911" duration="6352000" />
       <workItem from="1725287870808" duration="3336000" />
-      <workItem from="1725291377701" duration="3805000" />
+      <workItem from="1725291377701" duration="4223000" />
+      <workItem from="1725297100797" duration="429000" />
+      <workItem from="1725297637561" duration="15000" />
+      <workItem from="1725297672075" duration="960000" />
+      <workItem from="1725298870573" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -118,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725285626390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add label for name">
+      <option name="closed" value="true" />
+      <created>1725296630537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725296630537</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +142,7 @@
     <MESSAGE value="make assets directory and image directory" />
     <MESSAGE value="add my image" />
     <MESSAGE value="add image hover to start portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="add image hover to start portfolio" />
+    <MESSAGE value="add label for name" />
+    <option name="LAST_COMMIT_MESSAGE" value="add label for name" />
   </component>
 </project>
