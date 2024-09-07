@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d15f87-398b-481e-9130-2f809132e53b" name="Changes" comment="add label for name">
-      <change afterPath="$PROJECT_DIR$/assets/images/icons8-alphabet-67(1).png" afterDir="false" />
+    <list default="true" id="d2d15f87-398b-481e-9130-2f809132e53b" name="Changes" comment="make">
+      <change afterPath="$PROJECT_DIR$/assets/images/WhatsApp Image 2024-09-03 at 12.50.33 AM.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/WhatsApp Image 2024-07-22 at 1.50.32 PM(3).jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -73,7 +77,15 @@
       <workItem from="1725297100797" duration="429000" />
       <workItem from="1725297637561" duration="15000" />
       <workItem from="1725297672075" duration="960000" />
-      <workItem from="1725298870573" duration="606000" />
+      <workItem from="1725298870573" duration="710000" />
+      <workItem from="1725299623694" duration="35000" />
+      <workItem from="1725299684176" duration="1826000" />
+      <workItem from="1725304331223" duration="10691000" />
+      <workItem from="1725393478846" duration="602000" />
+      <workItem from="1725394465493" duration="4599000" />
+      <workItem from="1725433644137" duration="26000" />
+      <workItem from="1725438885718" duration="420000" />
+      <workItem from="1725678872394" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -131,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725296630537</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="make header section">
+      <option name="closed" value="true" />
+      <created>1725299493146</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725299493146</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +163,7 @@
     <MESSAGE value="add my image" />
     <MESSAGE value="add image hover to start portfolio" />
     <MESSAGE value="add label for name" />
-    <option name="LAST_COMMIT_MESSAGE" value="add label for name" />
+    <MESSAGE value="make header section" />
+    <option name="LAST_COMMIT_MESSAGE" value="make header section" />
   </component>
 </project>

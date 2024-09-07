@@ -73,7 +73,7 @@
 
         header>nav>ul>li{
             display: inline;
-            margin:0px 10px;
+            margin:5px 10px;
 
         }
 
@@ -91,6 +91,217 @@
             position: absolute;
             left: 40px;
             top: 30px;
+        }
+
+        footer {
+            height: 25px;
+            width: 100%;
+            max-width: 1900px;
+            background: linear-gradient(to left,#6A5F5F 69% ,#737373 100%,#D9D9D9 0% );
+            padding: 20px 10px;
+            color: white;
+            position: absolute;
+            right: 0;
+        }
+
+       .btn-wrap{
+           display: flex;
+           flex-wrap: wrap;
+           align-items: center;
+           gap: 40px;
+       }
+
+       .btn-wrap a{
+           padding: 10px 25px;
+           color: white;
+           background: transparent;
+           font-size: 18px;
+           font-weight: 400;
+           text-transform: capitalize;
+           border-radius: 5px;
+           text-decoration: none;
+           transition: all 0.3s ease;
+           border: 2px solid goldenrod;
+           letter-spacing: 2px;
+       }
+
+       .btn-wrap a:hover{
+           background-color: #796808;
+           transform: translateY(-2px);
+           border: 2px solid darkgoldenrod;
+
+       }
+
+
+       .hero-wrapper{
+          display: flex;
+           justify-content: center;
+           align-items: center;
+           padding: 70px 0;
+       }
+
+       .left-content{
+           flex: 1;
+           padding-right:20px;
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+       }
+
+       .left-content .welcome-title{
+           color: white;
+           font-size: 15px;
+           text-transform: uppercase;
+           letter-spacing: 4px;
+           display: block;
+       }
+
+       .left-content .txts-wrapper{
+           display: flex;
+           flex-direction: column;
+       }
+
+       .left-content .text-static{
+           font-size: 40px;
+           line-height: 70px;
+           font-weight: 700;
+           color: white;
+       }
+
+        .left-content .text-name {
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 700;
+            background: linear-gradient(to right, #705F00, #BDAA43, #E5DCAC,#F5F1D9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+
+
+        .left-content .txts-typing{
+            height: 70px;
+            line-height: 70px;
+            overflow: hidden;
+        }
+
+       .left-content .txts-typing li{
+           list-style: none;
+           color: white;
+           font-size: 60px;
+           font-weight: 700;
+           position: relative;
+           top: 0;
+           animation: slide 12s steps(4) infinite;
+       }
+
+       @keyframes slide {
+           100%{
+               top: -280px;
+           }
+
+       }
+
+        .left-content .txts-typing li span{
+            position: relative;
+            margin: 15px 0;
+            font-size: 54px;
+            line-height: 54px;
+            text-wrap: none;
+        }
+
+
+       .left-content .txts-typing li span::after{
+           content: "";
+           position: absolute;
+           left: 0;
+           top: 0;
+           height: 100%;
+           width: 100%;
+           background: #191919;
+           border-left: 2px solid darkgoldenrod;
+           animation: typing 3s steps(10) infinite;
+
+       }
+
+       @keyframes typing {
+           40%,60%{
+               left: calc(100% + 10px);
+           }
+           100%{
+               left: 0;
+           }
+       }
+
+       .para{
+           color: white;
+           font-size: 18px;
+           font-weight: 300;
+           margin-bottom: 15px;
+       }
+
+       .social-wrap . icon-wrap{
+           display: flex;
+           gap: 10px;
+           margin-top: 10px;
+       }
+
+       .social-wrap .icon-wrap a{
+           font-size: 18px;
+           color: #796808;
+           width: 35px;
+           height: 35px;
+           border: 1px solid goldenrod;
+           border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           text-decoration: none;
+           position: relative;
+           z-index: 1;
+           transition: all 0.5s ease-in;
+       }
+
+       .social-wrap .icon-wrap a:hover{
+           background: #796808;
+           border: 1px solid goldenrod;
+           color: white;
+       }
+
+
+        .hero-btn .btn-wrap i{
+           font-size: 22px;
+            position: relative;
+            bottom: 0;
+        }
+
+        .right-content {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            position: relative;
+            top: -550px;
+            left: -200px;
+        }
+
+        .right-content .hero-image-box img {
+            width: 500px;
+            height: 500px;
+            transition: 0.3s;
+            object-fit: cover;
+            border-radius: 10%  0  10% 0;
+        }
+
+        .right-content .hero-image-box img:hover {
+            border: 2px solid goldenrod;
+        }
+
+        .hero-btn {
+            position: absolute;
+            left: 0;
+            bottom: -700px;
         }
 
     </style>
@@ -129,5 +340,52 @@
         </ul>
     </nav>
 </header>
+<main>
+    <div class="hero-wrapper">
+        <div class="left-content">
+            <div class="welcome-title">Welcome to my world</div>
+            <div class="txts-wrapper">
+                <div class="text-static">Hello it’s Me<br></div>
+                <div class="text-name">Kaveesha Fernando<br></div>
+                <ul class="txts-typing">
+                    <li><span>Web Developer.</span></li>
+                    <li><span>UI/UX Designer.</span></li>
+                    <li><span>Web Designer.</span></li>
+                    <li><span>graphic Designer.</span></li>
+                </ul>
+            </div>
+
+            <p class="para">This is my official portfolio website to shows all
+                Details and work experience web development</p>
+            <div class="social-wrap"></div>
+            <h3>Find Me</h3>
+            <div class="icon-wrap">
+                <a href="#" ><i class="fb"></i></a>
+                <a href="#" ><i class="inster"></i></a>
+                <a href="#" ><i class="linkin"></i></a>
+                <a href="#" ><i class="medium"></i></a>
+            </div>
+        </div>
+        <br>
+        <div class="hero-btn">
+            <div class="btn-wrap">
+                <a href="#">Download CV<i class="bx bx-download"></i></a>
+            </div>
+        </div>
+    </div>
+        <div class="right-content">
+            <div class="hero-image-box">
+                    <img src="assets/images/WhatsApp%20Image%202024-09-03%20at%2012.50.33%20AM.jpeg" alt="hero image">
+            </div>
+        </div>
+
+    </div>
+
+</main>
+<footer>
+    <div>
+        <h4>DEVELOPED BY kavee</h4>
+    </div>
+</footer>
 </body>
 </html>
