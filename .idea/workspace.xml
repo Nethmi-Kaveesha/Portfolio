@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d15f87-398b-481e-9130-2f809132e53b" name="Changes" comment="make">
-      <change afterPath="$PROJECT_DIR$/assets/images/WhatsApp Image 2024-09-03 at 12.50.33 AM.jpeg" afterDir="false" />
+    <list default="true" id="d2d15f87-398b-481e-9130-2f809132e53b" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/assets/images/WhatsApp Image 2024-07-26 at 2.49.15 AM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/WhatsApp Image 2024-09-12 at 4.39.53 PM.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons8-facebook-48(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons8-github-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons8-instagram-48(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons8-linkedin-logo-48.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/WhatsApp Image 2024-07-22 at 1.50.32 PM(3).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +60,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,7 +93,11 @@
       <workItem from="1725394465493" duration="4599000" />
       <workItem from="1725433644137" duration="26000" />
       <workItem from="1725438885718" duration="420000" />
-      <workItem from="1725678872394" duration="933000" />
+      <workItem from="1725678872394" duration="4335000" />
+      <workItem from="1726130235904" duration="855000" />
+      <workItem from="1726131226156" duration="1916000" />
+      <workItem from="1726133185422" duration="46000" />
+      <workItem from="1726133308533" duration="10301000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -151,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725299493146</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="done">
+      <option name="closed" value="true" />
+      <created>1725680106943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725680106943</updated>
+    </task>
+    <task id="LOCAL-00010" summary="done">
+      <option name="closed" value="true" />
+      <created>1725682472187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725682472187</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +192,7 @@
     <MESSAGE value="add image hover to start portfolio" />
     <MESSAGE value="add label for name" />
     <MESSAGE value="make header section" />
-    <option name="LAST_COMMIT_MESSAGE" value="make header section" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>

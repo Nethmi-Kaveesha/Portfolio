@@ -148,7 +148,16 @@
            gap: 20px;
        }
 
+       .aboutmecontent{
+           flex: 1;
+           padding-right:20px;
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+       }
+
        .left-content .welcome-title{
+           margin-left: 30px;
            color: white;
            font-size: 15px;
            text-transform: uppercase;
@@ -157,11 +166,13 @@
        }
 
        .left-content .txts-wrapper{
+           margin-left: 30px;
            display: flex;
            flex-direction: column;
        }
 
        .left-content .text-static{
+           margin-left: 30px;
            font-size: 40px;
            line-height: 70px;
            font-weight: 700;
@@ -169,6 +180,7 @@
        }
 
         .left-content .text-name {
+            margin-left: 30px;
             font-size: 50px;
             line-height: 70px;
             font-weight: 700;
@@ -187,6 +199,7 @@
         }
 
        .left-content .txts-typing li{
+           margin-left: -10px;
            list-style: none;
            color: white;
            font-size: 60px;
@@ -235,6 +248,7 @@
        }
 
        .para{
+           margin-left: 60px;
            color: white;
            font-size: 18px;
            font-weight: 300;
@@ -271,6 +285,7 @@
 
 
         .hero-btn .btn-wrap i{
+
            font-size: 22px;
             position: relative;
             bottom: 0;
@@ -286,6 +301,7 @@
             left: -200px;
         }
 
+
         .right-content .hero-image-box img {
             width: 500px;
             height: 500px;
@@ -294,14 +310,131 @@
             border-radius: 10%  0  10% 0;
         }
 
+
         .right-content .hero-image-box img:hover {
             border: 2px solid goldenrod;
         }
 
         .hero-btn {
+            margin-left: 60px;
             position: absolute;
             left: 0;
-            bottom: -700px;
+            bottom: -650px;
+        }
+
+        .bar{
+            width: 100%;
+            height: 16px;
+            background: linear-gradient(to right, #878686, #212121);
+            position: absolute;
+            bottom: -770px;
+        }
+
+        .icon-wrap{
+            margin-left: 50px;
+            margin-right: 50px;
+
+        }
+
+        .labelled-name {
+            position: absolute; /* Position the element relative to the header */
+            top: -280px; /* Adjust the distance from the top */
+            left: 40px; /* Adjust the distance from the left */
+            color: white; /* Text color */
+            margin: 0;
+
+            }
+
+        .labelled-icon{
+            position: absolute; /* Position the element relative to the header */
+            top: -310px; /* Adjust the distance from the top */
+            color: white; /* Text color */
+            margin: 0;
+        }
+
+
+        .about-me .aboutmecontent {
+
+            top: 1000px;
+            left: 20px; /* Adjusted margin-left to left for absolute positioning */
+
+        }
+
+        .about-me .aboutmecontent {
+            display: grid;
+            place-items: flex-start;
+            top: 100px;/* Center items horizontally and vertically */
+            height: 100vh; /* Adjust the height as needed */
+        }
+
+        .about-me .aboutmecontent .aboutme-img {
+            margin-top: 30px;
+            margin-left: 20px;
+            display: grid;
+            place-items: start; /* Center items horizontally and vertically */
+            width: 500px; /* Adjust the width as needed */
+            height: 500px; /* Adjust the height as needed */
+        }
+
+        .about-me .aboutmecontent .aboutme-img img {
+            width: 100%;
+            height: 690px;
+            object-fit: cover;
+            border-radius: 10% 0 10% 0;
+        }
+
+        main.about-me {
+            margin-left: 40px;
+            position: relative;
+            top: -310px;
+            border: 2px solid darkgoldenrod;
+            height: 750px;
+            width: 1800px;
+        }
+
+        .rec{
+            width: 5px;
+            height: 690px;
+            background: linear-gradient(to bottom, #5E4F02, #F6F5ED);
+            position: absolute;
+            margin-left: 540px;
+            margin-top: 30px;
+        }
+
+        .title{
+            color: #F5F1D9;
+            position: absolute;
+            margin-left: 610px;
+            margin-top: 50px;
+            font-family: Grenze Gotisch;
+            font-size: 64px;
+
+        }
+
+        .border{
+            border: 2px solid darkgoldenrod;
+            width: 1100px;
+            height: 230px;
+            position: absolute;
+            margin-left: 610px;
+            margin-top: 150px;
+        }
+
+        .border label {
+            color: #ffedf6;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+
+        .aboutmecontent p{
+            color: #F5F1D9;
+            position: absolute;
+            margin-left: 610px;
+            margin-top: 400px;
+            width: 1120px;
         }
 
     </style>
@@ -357,13 +490,19 @@
 
             <p class="para">This is my official portfolio website to shows all
                 Details and work experience web development</p>
-            <div class="social-wrap"></div>
-            <h3>Find Me</h3>
             <div class="icon-wrap">
-                <a href="#" ><i class="fb"></i></a>
-                <a href="#" ><i class="inster"></i></a>
-                <a href="#" ><i class="linkin"></i></a>
-                <a href="#" ><i class="medium"></i></a>
+                <a class="facebook-link" href="https://www.facebook.com/share/97UFMB2C1mG3Zgn8/?mibextid=LQQJ4d" target="_blank">
+                    <img src="assets/images/icons8-facebook-48(1).png" alt="Facebook">
+                </a>
+                <a class="inster-link" href="https://www.facebook.com/share/97UFMB2C1mG3Zgn8/?mibextid=LQQJ4d" target="_blank">
+                    <img src="assets/images/icons8-instagram-48(1).png" alt="Inster">
+                </a>
+                <a class="github-link" href="https://www.facebook.com/share/97UFMB2C1mG3Zgn8/?mibextid=LQQJ4d" target="_blank">
+                    <img src="assets/images/icons8-github-48.png" alt="Facebook">
+                </a>
+                <a class="linkin-link" href="https://www.facebook.com/share/97UFMB2C1mG3Zgn8/?mibextid=LQQJ4d" target="_blank">
+                    <img src="assets/images/icons8-linkedin-logo-48.png" alt="Facebook">
+                </a>
             </div>
         </div>
         <br>
@@ -378,10 +517,41 @@
                     <img src="assets/images/WhatsApp%20Image%202024-09-03%20at%2012.50.33%20AM.jpeg" alt="hero image">
             </div>
         </div>
-
+    <div>
+    <div class="bar"></div>
     </div>
-
+    </div>
 </main>
+
+<header>
+    <img class="labelled-icon" src="assets/images/icons8-alphabet-67(1).png" alt="logo" title="logo" width="250" >
+    <h3 class="labelled-name">aveesha</h3>
+</header>
+<main class="about-me">
+
+    <div class="aboutmecontent">
+        <div class="aboutme-img">
+            <img src="assets/images/WhatsApp%20Image%202024-07-26%20at%202.49.15%20AM.jpeg" alt="hero image">
+        </div>
+        <div class="rec"></div>
+        <h2 class="title">About Me</h2>
+        <div class="border">
+            <label>Name : Nethmi Kaveesha Fernando</label>
+
+            <label>Contact Number : 0788309638</label>
+
+            <label>Email : kaveefernando@gmail.com</label>
+
+            <label>Age : 21years old</label>
+        </div>
+        <p>I am Nethmi Kaveesha Fernando, a dedicated student at IJSE Campus, where I have successfully completed the CMJD program and
+            am currently studying the GDSE program. My enthusiasm for creating new designs drives me to stay updated with the latest
+            trends and continuously improve my skills. I am committed to applying my knowledge and creativity to develop innovative
+            solutions and contribute meaningfully to every project I undertake.</p>
+    </div>
+</main>
+
+
 <footer>
     <div>
         <h4>DEVELOPED BY kavee</h4>
